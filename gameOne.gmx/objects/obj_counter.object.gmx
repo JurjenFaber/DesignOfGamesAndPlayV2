@@ -25,10 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>highscore_add("Rots", global.totalscore);
-if((obj_carrotscheck) || (obj_bananackeck.visible &amp;&amp; obj_carrotscheck.visible &amp;&amp;  obj_breadcheck.visible &amp;&amp; obj_cerealcheck)){
-    room_goto(rm_welldone);
+            <string>global.levelscore = global.points + global.health - global.time;
+global.totalscore+= global.levelscore;
 
+show_debug_message(global.levelscore);
+show_debug_message(global.totalscore);
+
+highscore_add("Rots", global.totalscore);
+if((obj_carrotscheck) || (obj_bananackeck.visible &amp;&amp; obj_carrotscheck.visible &amp;&amp;  obj_breadcheck.visible &amp;&amp; obj_cerealcheck)){
+    room_goto_next();
 }
 
 </string>

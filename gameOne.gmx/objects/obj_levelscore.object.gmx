@@ -25,9 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-
-draw_set_color(c_red);
+            <string>draw_set_color(c_red);
 draw_text_transformed(64, 160, global.levelscore, 2, 2, 0)
 </string>
           </argument>
