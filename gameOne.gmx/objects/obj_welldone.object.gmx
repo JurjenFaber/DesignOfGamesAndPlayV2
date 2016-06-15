@@ -8,20 +8,36 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="6" enumb="4">
+    <event eventtype="9" enumb="32">
       <action>
         <libid>1</libid>
-        <id>222</id>
-        <kind>0</kind>
+        <id>603</id>
+        <kind>7</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_next_room</functionname>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>switch (global.level){
+    case 1:
+        room_goto(rm_grocery_list1);
+    break;
+    case 2:
+        room_goto(rm_gameover);
+    break;
+    default: show_debug_message("not found");
+}
+
+</string>
+          </argument>
+        </arguments>
       </action>
     </event>
   </events>

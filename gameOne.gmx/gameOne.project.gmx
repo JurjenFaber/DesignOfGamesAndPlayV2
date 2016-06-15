@@ -56,13 +56,16 @@
     </sprites>
     <sprite>sprites\spr_hamburger</sprite>
     <sprite>sprites\spr_tomato</sprite>
+    <sprite>sprites\spr_walkingMan</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
     <background>background\bg_menu</background>
     <background>background\bg_welldone</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\pth_levelOneWalkingMan</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\scr_mouse_hover.gml</script>
   </scripts>
@@ -121,6 +124,7 @@
     </objects>
     <object>objects\obj_hamburger</object>
     <object>objects\obj_tomato</object>
+    <object>objects\obj_walkingMan</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>
