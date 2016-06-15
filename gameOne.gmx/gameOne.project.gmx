@@ -97,6 +97,7 @@
     <object>objects\obj_creditsscreen</object>
     <object>objects\obj_leaderboards2</object>
     <object>objects\obj_walkingMan</object>
+    <object>objects\obj_list_time</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>
