@@ -31,7 +31,8 @@ global.totalscore+= global.levelscore;
 show_debug_message(global.levelscore);
 show_debug_message(global.totalscore);
 
-//highscore_add("Rots", global.totalscore);
+audio_play_sound(igs_iedereen_moet_betalen, 10, false);    
+
 if(global.bananas &lt;= 0 &amp;&amp; global.carrots &lt;= 0 &amp;&amp; global.bread &lt;= 0 &amp;&amp; global.cereal &lt;=0 &amp;&amp; global.ketchup &lt;= 0 &amp;&amp; global.mustard &lt;= 0 /*(obj_carrotscheck) || (obj_bananackeck.visible &amp;&amp; obj_carrotscheck.visible &amp;&amp;  obj_breadcheck.visible &amp;&amp; obj_cerealcheck)*/){
     room_goto_next();
 }

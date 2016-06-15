@@ -7,6 +7,8 @@
   <sounds name="sound">
     <sound>sound\bgm_ingame</sound>
     <sound>sound\bgm_mainmenu</sound>
+    <sound>sound\igs_iedereen_moet_betalen</sound>
+    <sound>sound\igs_item_pickup</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_cart</sprite>
