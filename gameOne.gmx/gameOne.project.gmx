@@ -38,14 +38,11 @@
     <sprite>sprites\spr_leaderboards</sprite>
     <sprite>sprites\spr_startmenu</sprite>
     <sprite>sprites\spr_gameover</sprite>
-<<<<<<< HEAD
     <sprite>sprites\spr_storeManager</sprite>
-=======
     <sprite>sprites\spr_backbutton</sprite>
     <sprite>sprites\spr_creditsscreen</sprite>
     <sprite>sprites\spr_leaderboards2</sprite>
     <sprite>sprites\spr_walkingMan</sprite>
->>>>>>> origin/master
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
@@ -111,11 +108,6 @@
     <room>rooms\rm_level3</room>
     <room>rooms\rm_welldone</room>
     <room>rooms\rm_grocery_list1</room>
-    <room>rooms\rm_level1</room>
-    <room>rooms\rm_gameover</room>
-    <room>rooms\rm_credits</room>
-    <room>rooms\rm_leaderboards</room>
-    <room>rooms\rm_options</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
