@@ -41,6 +41,17 @@
     <sprite>sprites\spr_backbutton</sprite>
     <sprite>sprites\spr_creditsscreen</sprite>
     <sprite>sprites\spr_leaderboards2</sprite>
+    <sprites name="options_menu">
+      <sprite>sprites\spr_difficulty</sprite>
+      <sprite>sprites\spr_pleasant</sprite>
+      <sprite>sprites\spr_impenetrable</sprite>
+      <sprite>sprites\spr_language</sprite>
+      <sprite>sprites\spr_English</sprite>
+      <sprite>sprites\spr_sign</sprite>
+      <sprite>sprites\spr_sound</sprite>
+      <sprite>sprites\spr_mute</sprite>
+      <sprite>sprites\spr_unmute</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
