@@ -54,6 +54,8 @@
       <sprite>sprites\spr_mute</sprite>
       <sprite>sprites\spr_unmute</sprite>
     </sprites>
+    <sprite>sprites\spr_hamburger</sprite>
+    <sprite>sprites\spr_tomato</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
@@ -106,6 +108,19 @@
     <object>objects\obj_backbutton</object>
     <object>objects\obj_creditsscreen</object>
     <object>objects\obj_leaderboards2</object>
+    <objects name="options_menu">
+      <object>objects\obj_difficulty</object>
+      <object>objects\obj_pleasant</object>
+      <object>objects\obj_impenetrable</object>
+      <object>objects\obj_language</object>
+      <object>objects\obj_english</object>
+      <object>objects\obj_sign</object>
+      <object>objects\obj_sound</object>
+      <object>objects\obj_mute</object>
+      <object>objects\obj_unmute</object>
+    </objects>
+    <object>objects\obj_hamburger</object>
+    <object>objects\obj_tomato</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>
