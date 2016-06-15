@@ -57,6 +57,7 @@
     <sprite>sprites\spr_hamburger</sprite>
     <sprite>sprites\spr_tomato</sprite>
     <sprite>sprites\spr_walkingMan</sprite>
+    <sprite>sprites\spr_storeManager</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
@@ -131,9 +132,12 @@
     <object>objects\obj_hamburger</object>
     <object>objects\obj_tomato</object>
     <object>objects\obj_walkingMan</object>
+    <object>objects\obj_list_time</object>
+    <object>objects\obj_event1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>
+    <room>rooms\rm_Tutorial1</room>
     <room>rooms\rm_grocery_list2</room>
     <room>rooms\rm_level3</room>
     <room>rooms\rm_welldone</room>
