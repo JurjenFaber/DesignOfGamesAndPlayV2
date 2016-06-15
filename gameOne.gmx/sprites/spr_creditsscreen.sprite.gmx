@@ -8,17 +8,17 @@
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>0</bbox_left>
-  <bbox_right>3332</bbox_right>
+  <bbox_right>3382</bbox_right>
   <bbox_top>0</bbox_top>
-  <bbox_bottom>2532</bbox_bottom>
+  <bbox_bottom>2570</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>3333</width>
-  <height>2533</height>
+  <width>3383</width>
+  <height>2571</height>
   <frames>
     <frame index="0">images\spr_creditsscreen_0.png</frame>
   </frames>

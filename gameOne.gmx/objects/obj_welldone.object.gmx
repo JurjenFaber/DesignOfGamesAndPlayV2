@@ -26,6 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>switch (global.level){
+    case 0:
+        room_goto(rm_grocery_list2);
+    break;
     case 1:
         room_goto(rm_grocery_list1);
     break;
