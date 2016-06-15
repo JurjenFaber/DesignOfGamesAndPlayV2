@@ -41,13 +41,16 @@
     <sprite>sprites\spr_backbutton</sprite>
     <sprite>sprites\spr_creditsscreen</sprite>
     <sprite>sprites\spr_leaderboards2</sprite>
+    <sprite>sprites\spr_walkingMan</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
     <background>background\bg_menu</background>
     <background>background\bg_welldone</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\pth_levelOneWalkingMan</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\scr_mouse_hover.gml</script>
   </scripts>
@@ -93,6 +96,7 @@
     <object>objects\obj_backbutton</object>
     <object>objects\obj_creditsscreen</object>
     <object>objects\obj_leaderboards2</object>
+    <object>objects\obj_walkingMan</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>

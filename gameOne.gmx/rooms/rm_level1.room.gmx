@@ -134,6 +134,7 @@ global.mustard = 0;</code>
     <instance objName="obj_carrots" x="34" y="370" name="inst_4324CB24" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_carrots" x="34" y="326" name="inst_6A482A56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_time" x="1120" y="104" name="inst_B4BA8039" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_walkingMan" x="562" y="610" name="inst_DA7556BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
