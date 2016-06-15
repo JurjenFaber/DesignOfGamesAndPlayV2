@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>audio_stop_sound(bgm_ingame);
 audio_stop_sound(bgm_mainmenu);
+global.listtime = 10;
 </string>
           </argument>
         </arguments>
