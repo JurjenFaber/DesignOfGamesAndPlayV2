@@ -38,6 +38,7 @@
     <sprite>sprites\spr_leaderboards</sprite>
     <sprite>sprites\spr_startmenu</sprite>
     <sprite>sprites\spr_gameover</sprite>
+    <sprite>sprites\spr_storeManager</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
@@ -81,6 +82,7 @@
     <object>objects\obj_options_title</object>
     <object>objects\obj_startmenu</object>
     <object>objects\obj_welldone</object>
+    <object>objects\obj_event1</object>
     <object>objects\obj_gameover</object>
     <object>objects\obj_groceries</object>
     <object>objects\obj_highscores</object>
@@ -90,6 +92,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>
+    <room>rooms\rm_Tutorial_1</room>
     <room>rooms\rm_grocery_list2</room>
     <room>rooms\rm_level3</room>
     <room>rooms\rm_welldone</room>
