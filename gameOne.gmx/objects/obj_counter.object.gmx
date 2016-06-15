@@ -25,18 +25,19 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.levelscore = global.points + global.health - global.time + global.listtime;
-global.totalscore+= global.levelscore;
+            <string>
 roomprev = room_get_name(room_previous(room));
 
 
 show_debug_message(global.levelscore);
 show_debug_message(global.totalscore);
 show_debug_message(roomprev);
-
-audio_play_sound(igs_iedereen_moet_betalen, 10, false);    
+    
 
 if(global.bananas &lt;= 0 &amp;&amp; global.carrots &lt;= 0 &amp;&amp; global.bread &lt;= 0 &amp;&amp; global.cereal &lt;=0 &amp;&amp; global.ketchup &lt;= 0 &amp;&amp; global.mustard &lt;= 0 /*(obj_carrotscheck) || (obj_bananackeck.visible &amp;&amp; obj_carrotscheck.visible &amp;&amp;  obj_breadcheck.visible &amp;&amp; obj_cerealcheck)*/){
+    global.levelscore = global.points + global.health - global.time + global.listtime;
+    global.totalscore+= global.levelscore;
+    audio_play_sound(igs_iedereen_moet_betalen, 10, false);
     room_goto(rm_welldone);
 }
 

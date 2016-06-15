@@ -72,24 +72,24 @@
   <objects name="objects">
     <object>objects\obj_cart</object>
     <object>objects\obj_solidshelf1</object>
-    <object>objects\obj_banana</object>
     <object>objects\obj_shelf1</object>
     <object>objects\obj_start</object>
     <object>objects\obj_counter</object>
     <object>objects\obj_wall</object>
-    <object>objects\obj_bananackeck</object>
-    <object>objects\obj_carrotscheck</object>
-    <object>objects\obj_carrots</object>
-    <object>objects\obj_score</object>
-    <object>objects\obj_bread</object>
-    <object>objects\obj_ketchup</object>
-    <object>objects\obj_mustard</object>
-    <object>objects\obj_cereal</object>
-    <object>objects\obj_breadcheck</object>
-    <object>objects\obj_ketchupcheck</object>
-    <object>objects\obj_mustardcheck</object>
-    <object>objects\obj_cerealcheck</object>
-    <object>objects\obj_health</object>
+    <objects name="Groceries">
+      <object>objects\obj_banana</object>
+      <object>objects\obj_bananackeck</object>
+      <object>objects\obj_bread</object>
+      <object>objects\obj_breadcheck</object>
+      <object>objects\obj_carrots</object>
+      <object>objects\obj_carrotscheck</object>
+      <object>objects\obj_cereal</object>
+      <object>objects\obj_cerealcheck</object>
+      <object>objects\obj_ketchup</object>
+      <object>objects\obj_ketchupcheck</object>
+      <object>objects\obj_mustardcheck</object>
+      <object>objects\obj_mustard</object>
+    </objects>
     <object>objects\obj_back</object>
     <object>objects\obj_bgm_ingame</object>
     <object>objects\obj_bgm_mainmenu</object>
@@ -99,16 +99,21 @@
     <object>objects\obj_grocery_list2</object>
     <object>objects\obj_grocery_list4</object>
     <object>objects\obj_leaderboards</object>
+    <objects name="Scripts">
+      <object>objects\obj_health</object>
+      <object>objects\obj_highscores</object>
+      <object>objects\obj_levelscore</object>
+      <object>objects\obj_list_time</object>
+      <object>objects\obj_score</object>
+      <object>objects\obj_time</object>
+      <object>objects\obj_totalscore</object>
+    </objects>
     <object>objects\obj_options</object>
     <object>objects\obj_options_title</object>
     <object>objects\obj_startmenu</object>
     <object>objects\obj_welldone</object>
     <object>objects\obj_gameover</object>
     <object>objects\obj_groceries</object>
-    <object>objects\obj_highscores</object>
-    <object>objects\obj_time</object>
-    <object>objects\obj_levelscore</object>
-    <object>objects\obj_totalscore</object>
     <object>objects\obj_backbutton</object>
     <object>objects\obj_creditsscreen</object>
     <object>objects\obj_leaderboards2</object>
@@ -126,7 +131,6 @@
     <object>objects\obj_hamburger</object>
     <object>objects\obj_tomato</object>
     <object>objects\obj_walkingMan</object>
-    <object>objects\obj_list_time</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>
