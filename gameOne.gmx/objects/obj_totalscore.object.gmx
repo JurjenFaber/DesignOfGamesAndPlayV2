@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>draw_set_color(c_red);
-draw_text_transformed(64, 192, global.totalscore, 2, 2, 0)
+draw_text_transformed(704, 112, global.totalscore, 2, 2, 0)
 </string>
           </argument>
         </arguments>
