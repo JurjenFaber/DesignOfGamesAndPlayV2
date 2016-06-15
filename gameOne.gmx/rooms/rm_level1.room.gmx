@@ -13,6 +13,8 @@
   <code>global.points = 0;
 global.levelscore = 0;
 global.health = 200;
+global.level+=1;
+
 global.time = 0;
 
 global.bananas = 1;
