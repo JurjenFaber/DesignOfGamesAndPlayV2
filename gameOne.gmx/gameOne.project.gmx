@@ -58,6 +58,7 @@
     <sprite>sprites\spr_tomato</sprite>
     <sprite>sprites\spr_walkingMan</sprite>
     <sprite>sprites\spr_storeManager</sprite>
+    <sprite>sprites\spr_youdied</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
@@ -134,6 +135,7 @@
     <object>objects\obj_walkingMan</object>
     <object>objects\obj_list_time</object>
     <object>objects\obj_event1</object>
+    <object>objects\obj_youdied</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>
@@ -142,13 +144,14 @@
     <room>rooms\rm_level3</room>
     <room>rooms\rm_welldone</room>
     <room>rooms\rm_grocery_list1</room>
-    <room>rooms\rm_level1</room>
+    <room>rooms\rm_grocery_list4</room>
     <room>rooms\rm_grocery_list4</room>
     <room>rooms\rm_level4</room>
     <room>rooms\rm_gameover</room>
     <room>rooms\rm_credits</room>
     <room>rooms\rm_leaderboards</room>
     <room>rooms\rm_options</room>
+    <room>rooms\rm_youdied</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
