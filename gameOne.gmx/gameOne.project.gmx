@@ -59,6 +59,7 @@
     <sprite>sprites\spr_walkingMan</sprite>
     <sprite>sprites\spr_storeManager</sprite>
     <sprite>sprites\spr_youdied</sprite>
+    <sprite>sprites\spr_insertname</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
@@ -71,6 +72,9 @@
   <scripts name="scripts">
     <script>scripts\scr_mouse_hover.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_player</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_cart</object>
     <object>objects\obj_solidshelf1</object>
@@ -136,6 +140,8 @@
     <object>objects\obj_list_time</object>
     <object>objects\obj_event1</object>
     <object>objects\obj_youdied</object>
+    <object>objects\obj_inserttext</object>
+    <object>objects\obj_insertnamebox</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>
@@ -152,6 +158,7 @@
     <room>rooms\rm_leaderboards</room>
     <room>rooms\rm_options</room>
     <room>rooms\rm_youdied</room>
+    <room>rooms\rm_newhighscore</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
