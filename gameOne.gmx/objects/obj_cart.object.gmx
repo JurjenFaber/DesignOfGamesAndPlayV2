@@ -231,11 +231,13 @@ show_debug_message(xRight);
 show_debug_message(yLeft);
 show_debug_message(yRight);
 
+audio_play_sound(igs_item_pickup, 10, false);
 
 var inst;
 inst = collision_rectangle(xLeft, yLeft, xRight, yRight, obj_groceries, false, true)
 if inst != noone
    {
+    audio_play_sound(igs_item_pickup, 10, false);
     with (inst) instance_destroy();
    }
 </string>

@@ -53,6 +53,17 @@
   <instances>
     <instance objName="obj_options_title" x="512" y="96" name="inst_39E6BBC4" locked="0" code="" scaleX="0.503086447715759" scaleY="0.453164547681808" colour="4294967295" rotation="0"/>
     <instance objName="obj_backbutton" x="288" y="640" name="inst_B9AAEC8B" locked="0" code="" scaleX="0.596072912216187" scaleY="0.431472092866898" colour="4294967295" rotation="0"/>
+    <instance objName="obj_difficulty" x="32" y="185" name="inst_D9B66D48" locked="0" code="" scaleX="0.337099820375443" scaleY="0.350253820419312" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pleasant" x="448" y="205" name="inst_14185925" locked="0" code="" scaleX="0.26205450296402" scaleY="0.269035518169403" colour="4294967295" rotation="0"/>
+    <instance objName="obj_impenetrable" x="704" y="205" name="inst_E23FE62D" locked="0" code="" scaleX="0.240356087684631" scaleY="0.269035518169403" colour="4294967295" rotation="0"/>
+    <instance objName="obj_language" x="40" y="304" name="inst_A6293DC1" locked="0" code="" scaleX="0.294532626867294" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="obj_english" x="448" y="335" name="inst_C3ABE583" locked="0" code="" scaleX="0.249382719397545" scaleY="0.269035518169403" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sign" x="700" y="335" name="inst_95AEB8AB" locked="0" code="" scaleX="0.282758623361588" scaleY="0.269035518169403" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sound" x="28" y="440" name="inst_B9C7DAC4" locked="0" code="" scaleX="0.375" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mute" x="448" y="470" name="inst_C7D4755A" locked="0" code="" scaleX="0.291666656732559" scaleY="0.269035518169403" colour="4294967295" rotation="0"/>
+    <instance objName="obj_unmute" x="704" y="470" name="inst_38BC67AA" locked="0" code="" scaleX="0.241534993052483" scaleY="0.269035518169403" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hamburger" x="32" y="64" name="inst_484B4985" locked="0" code="" scaleX="0.400000005960464" scaleY="0.360000014305115" colour="4294967295" rotation="20"/>
+    <instance objName="obj_tomato" x="768" y="576" name="inst_73E241C6" locked="0" code="" scaleX="0.600000023841858" scaleY="0.600000023841858" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

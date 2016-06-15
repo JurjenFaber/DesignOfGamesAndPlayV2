@@ -7,6 +7,8 @@
   <sounds name="sound">
     <sound>sound\bgm_ingame</sound>
     <sound>sound\bgm_mainmenu</sound>
+    <sound>sound\igs_iedereen_moet_betalen</sound>
+    <sound>sound\igs_item_pickup</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_cart</sprite>
@@ -42,6 +44,19 @@
     <sprite>sprites\spr_backbutton</sprite>
     <sprite>sprites\spr_creditsscreen</sprite>
     <sprite>sprites\spr_leaderboards2</sprite>
+    <sprites name="options_menu">
+      <sprite>sprites\spr_difficulty</sprite>
+      <sprite>sprites\spr_pleasant</sprite>
+      <sprite>sprites\spr_impenetrable</sprite>
+      <sprite>sprites\spr_language</sprite>
+      <sprite>sprites\spr_English</sprite>
+      <sprite>sprites\spr_sign</sprite>
+      <sprite>sprites\spr_sound</sprite>
+      <sprite>sprites\spr_mute</sprite>
+      <sprite>sprites\spr_unmute</sprite>
+    </sprites>
+    <sprite>sprites\spr_hamburger</sprite>
+    <sprite>sprites\spr_tomato</sprite>
     <sprite>sprites\spr_walkingMan</sprite>
   </sprites>
   <backgrounds name="background">
@@ -83,6 +98,7 @@
     <object>objects\obj_exit</object>
     <object>objects\obj_grocery_list1</object>
     <object>objects\obj_grocery_list2</object>
+    <object>objects\obj_grocery_list4</object>
     <object>objects\obj_leaderboards</object>
     <object>objects\obj_options</object>
     <object>objects\obj_options_title</object>
@@ -98,6 +114,19 @@
     <object>objects\obj_backbutton</object>
     <object>objects\obj_creditsscreen</object>
     <object>objects\obj_leaderboards2</object>
+    <objects name="options_menu">
+      <object>objects\obj_difficulty</object>
+      <object>objects\obj_pleasant</object>
+      <object>objects\obj_impenetrable</object>
+      <object>objects\obj_language</object>
+      <object>objects\obj_english</object>
+      <object>objects\obj_sign</object>
+      <object>objects\obj_sound</object>
+      <object>objects\obj_mute</object>
+      <object>objects\obj_unmute</object>
+    </objects>
+    <object>objects\obj_hamburger</object>
+    <object>objects\obj_tomato</object>
     <object>objects\obj_walkingMan</object>
     <object>objects\obj_list_time</object>
   </objects>
@@ -108,6 +137,7 @@
     <room>rooms\rm_level3</room>
     <room>rooms\rm_welldone</room>
     <room>rooms\rm_grocery_list1</room>
+    <room>rooms\rm_level1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
