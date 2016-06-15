@@ -97,6 +97,7 @@
     <object>objects\obj_exit</object>
     <object>objects\obj_grocery_list1</object>
     <object>objects\obj_grocery_list2</object>
+    <object>objects\obj_grocery_list4</object>
     <object>objects\obj_leaderboards</object>
     <object>objects\obj_options</object>
     <object>objects\obj_options_title</object>
@@ -125,6 +126,7 @@
     <object>objects\obj_hamburger</object>
     <object>objects\obj_tomato</object>
     <object>objects\obj_walkingMan</object>
+    <object>objects\obj_list_time</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>
@@ -133,6 +135,8 @@
     <room>rooms\rm_welldone</room>
     <room>rooms\rm_grocery_list1</room>
     <room>rooms\rm_level1</room>
+    <room>rooms\rm_grocery_list4</room>
+    <room>rooms\rm_level4</room>
     <room>rooms\rm_gameover</room>
     <room>rooms\rm_credits</room>
     <room>rooms\rm_leaderboards</room>

@@ -30,6 +30,9 @@
         room_goto(rm_grocery_list1);
     break;
     case 2:
+        room_goto(rm_grocery_list4);
+    break;
+    case 3:
         room_goto(rm_gameover);
     break;
     default: show_debug_message("not found");
