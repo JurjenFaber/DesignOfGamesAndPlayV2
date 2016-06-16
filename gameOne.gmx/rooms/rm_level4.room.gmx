@@ -139,6 +139,9 @@ global.mustard = 0;</code>
     <instance objName="obj_cereal" x="576" y="832" name="inst_92F0C44C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ketchup" x="768" y="832" name="inst_10047E13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_mustard" x="640" y="800" name="inst_87C1C871" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_choco" x="608" y="160" name="inst_DE423E7F" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_choco" x="352" y="544" name="inst_B126F8CD" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_choco" x="544" y="384" name="inst_77619BE1" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

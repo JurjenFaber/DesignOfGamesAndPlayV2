@@ -102,9 +102,7 @@ global.health-=1;
             <string>speed=speed*0.5;
 global.health-=1;
 
-//if(global.health = 0){
-//    game_restart();
-//}
+
 </string>
           </argument>
         </arguments>

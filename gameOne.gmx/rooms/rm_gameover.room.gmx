@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_gameover" x="0" y="0" name="inst_08EF8619" locked="0" code="" scaleX="0.204171687364578" scaleY="0.231692671775818" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gameover" x="-96" y="0" name="inst_B28DAADA" locked="0" code="" scaleX="0.899999976158142" scaleY="0.920000016689301" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

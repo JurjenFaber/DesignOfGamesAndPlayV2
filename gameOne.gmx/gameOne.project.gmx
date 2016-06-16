@@ -60,6 +60,11 @@
     <sprite>sprites\spr_storeManager</sprite>
     <sprite>sprites\spr_youdied</sprite>
     <sprite>sprites\spr_insertname</sprite>
+    <sprite>sprites\spr_choco</sprite>
+    <sprite>sprites\spr_chips</sprite>
+    <sprite>sprites\spr_coffee</sprite>
+    <sprite>sprites\spr_olive</sprite>
+    <sprite>sprites\spr_salad</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
@@ -95,6 +100,7 @@
       <object>objects\obj_ketchupcheck</object>
       <object>objects\obj_mustardcheck</object>
       <object>objects\obj_mustard</object>
+      <object>objects\obj_chips</object>
     </objects>
     <object>objects\obj_back</object>
     <object>objects\obj_bgm_ingame</object>
@@ -137,11 +143,11 @@
     <object>objects\obj_hamburger</object>
     <object>objects\obj_tomato</object>
     <object>objects\obj_walkingMan</object>
-    <object>objects\obj_list_time</object>
     <object>objects\obj_event1</object>
     <object>objects\obj_youdied</object>
     <object>objects\obj_inserttext</object>
     <object>objects\obj_insertbox</object>
+    <object>objects\obj_choco</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>
@@ -150,8 +156,8 @@
     <room>rooms\rm_level3</room>
     <room>rooms\rm_welldone</room>
     <room>rooms\rm_grocery_list1</room>
-    <room>rooms\rm_grocery_list4</room>
     <room>rooms\rm_level1</room>
+    <room>rooms\rm_grocery_list4</room>
     <room>rooms\rm_level4</room>
     <room>rooms\rm_gameover</room>
     <room>rooms\rm_credits</room>
