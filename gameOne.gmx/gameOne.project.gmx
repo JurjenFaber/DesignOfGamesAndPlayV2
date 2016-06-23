@@ -73,6 +73,7 @@
   </backgrounds>
   <paths name="paths">
     <path>paths\pth_levelOneWalkingMan</path>
+    <path>paths\pth_LevelSixWalkingMan</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\scr_mouse_hover.gml</script>
@@ -142,12 +143,15 @@
     </objects>
     <object>objects\obj_hamburger</object>
     <object>objects\obj_tomato</object>
-    <object>objects\obj_walkingMan</object>
+    <object>objects\obj_walkingManLevelSix</object>
+    <object>objects\obj_walkingManLevelOne</object>
     <object>objects\obj_event1</object>
     <object>objects\obj_youdied</object>
     <object>objects\obj_inserttext</object>
     <object>objects\obj_insertbox</object>
     <object>objects\obj_choco</object>
+    <object>objects\obj_grocery_list6</object>
+    <object>objects\obj_grocery_list5</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>
@@ -165,6 +169,10 @@
     <room>rooms\rm_options</room>
     <room>rooms\rm_youdied</room>
     <room>rooms\rm_newhighscore</room>
+    <room>rooms\rm_level5</room>
+    <room>rooms\rm_grocery_list5</room>
+    <room>rooms\rm_level6</room>
+    <room>rooms\rm_grocery_list6</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

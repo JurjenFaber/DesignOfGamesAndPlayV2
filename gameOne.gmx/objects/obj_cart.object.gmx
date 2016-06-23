@@ -26,6 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = speed/13;
+
+if(global.health&lt;=0){
+    room_goto(rm_youdied);
+}
 </string>
           </argument>
         </arguments>

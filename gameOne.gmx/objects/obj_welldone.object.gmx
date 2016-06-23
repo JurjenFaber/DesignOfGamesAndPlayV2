@@ -37,6 +37,12 @@ switch (global.level){
         room_goto(rm_grocery_list4);
     break;
     case 3:
+        room_goto(rm_grocery_list5);
+    break;
+    case 4:
+        room_goto(rm_grocery_list6);
+    break;   
+    case 5:
         room_goto(rm_gameover);
     break;
     default: show_debug_message("not found");
