@@ -65,6 +65,7 @@
     <sprite>sprites\spr_coffee</sprite>
     <sprite>sprites\spr_olive</sprite>
     <sprite>sprites\spr_salad</sprite>
+    <sprite>sprites\pointer</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
@@ -152,6 +153,7 @@
     <object>objects\obj_choco</object>
     <object>objects\obj_grocery_list6</object>
     <object>objects\obj_grocery_list5</object>
+    <object>objects\obj_pointer</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>
